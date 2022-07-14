@@ -1,0 +1,16 @@
+1- Install puppeteer module
+2 - launch puppeteer which returns a promise
+3-we got browserobject and then opened a new tab
+4-we need to go to hackerrank login pagewebsite
+5-we inspected the email input and password input
+6-then typed the email and password
+7-we inspected for login button
+8-click on login button
+9-select algo section
+10- select warmpu section
+11-Now we want to identify the number of questions in query selector{
+  for that we can use :
+  $ which is document.querySelector
+  $$ which is document.querySelectorAll
+}
+12- after getting number of questions, we make a function for solving the first question from the question array that we received
